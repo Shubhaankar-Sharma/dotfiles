@@ -341,7 +341,7 @@ assign [class="Spotify"] $ws10
 ##########################
 exec_always --no-startup-id "xrdb -load ~/.Xresources"
 exec_always --no-startup-id "sh ~/bin/natural_scrolling.sh"
-exec_always --no-startup-id "feh --bg-scale ~/Pictures/background.png"
+exec_always --no-startup-id "feh --bg-scale ~/Pictures/background.jpg"
 exec_always --no-startup-id "sh ~/.screenlayout/monitor_only.sh"
 
 ## POLYBAR #############################################
