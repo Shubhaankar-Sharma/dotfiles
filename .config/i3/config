@@ -331,7 +331,7 @@ bindsym XF86AudioPrev exec playerctl previous
 
 bindsym Print       exec flameshot full
 bindsym Shift+Print exec flameshot gui
-
+bindsym Mod1+Tab workspace back_and_forth
 # bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 800 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd"
 bindsym $mod+d exec rofi -show run
 bindsym $mod+x exec ~/.config/i3lock/lock.sh
@@ -343,6 +343,7 @@ exec_always --no-startup-id "xrdb -load ~/.Xresources"
 exec_always --no-startup-id "sh ~/bin/natural_scrolling.sh"
 exec_always --no-startup-id "feh --bg-scale ~/Pictures/background.jpg"
 exec_always --no-startup-id "sh ~/.screenlayout/monitor_only.sh"
+exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=ssh,secrets,pkcs11
 
 ## POLYBAR #############################################
 exec_always --no-startup-id ~/.config/polybar/launch.sh
