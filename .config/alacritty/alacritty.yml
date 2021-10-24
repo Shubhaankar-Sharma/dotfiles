@@ -30,9 +30,9 @@ window:
 # scrolling
   history: 10000
   multiplier: 3
-  opacity: 0.8
+  # opacity: 0.8
 ## Background opacity
-# background_opacity: 0.8
+background_opacity: 0.95
 
 # Cursor
 cursor:
