@@ -18,7 +18,7 @@ window:
   dimensions:
     columns: 82
     lines: 25
-  opacity: 0.95
+  opacity: 0.80
   padding:
     x: 12
     y: 12
