@@ -129,3 +129,4 @@ source /home/shubhaankar/base/bin/activate
 export PATH=$PATH:$HOME/.pulumi/bin
 source /opt/ros/noetic/setup.zsh
 alias catk_make='/opt/ros/noetic/bin/catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3'
+# nerdfetch
