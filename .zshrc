@@ -130,7 +130,3 @@ export PATH=$PATH:$HOME/.pulumi/bin
 source /opt/ros/noetic/setup.zsh
 alias catk_make='/opt/ros/noetic/bin/catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3'
 # nerdfetch
-if [ -n "$DESKTOP_SESSION" ];then
-    eval $(gnome-keyring-daemon --start)
-    export SSH_AUTH_SOCK
-fi
