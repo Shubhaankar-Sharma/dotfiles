@@ -126,5 +126,5 @@ source /home/shubhaankar/base/bin/activate
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # add Pulumi to the PATH
-export PATH=$PATH:$HOME/.pulumi/bin:$HOME/bin
+export PATH=$PATH:$HOME/.pulumi/bin
 # nerdfetch
